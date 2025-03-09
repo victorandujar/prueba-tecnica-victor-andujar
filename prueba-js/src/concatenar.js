@@ -1,7 +1,7 @@
 export const concatenar = (json) => {
-  const capitalizar = (str) => {
-    if (!str) return "";
-    return str
+  const capitalizar = (text) => {
+    if (!text) return "";
+    return text
       .split(" ")
       .map(
         (palabra) =>
